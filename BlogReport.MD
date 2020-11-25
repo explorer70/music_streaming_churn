@@ -59,14 +59,18 @@ churn  paid
        0       0.307692
 
 ![P2](/images/eda1.png)
+
 Users who ended up churning had 25 months as average tenure vs. users who did not churn had 46 months of tenure.
 
 ![P3](/images/eda2.png)
+
 Visit frequency is an engineered feature that shows how many sessions per day on average each user had. It reflects the usage of the portal. Users who ended up churning were using the site less frequently (2.75 vs. 5.11 for non-churners).
 As the next step, I aggregated data on a session level to calculate the session-level statistics. At this point, I used the EDA to explore the univariate correlation between session-level features and churn.
+
 ![P4](/images/eda3.png)
 
 ![P5](/images/eda4.png)
+
 Churners played less number of songs per session and had shorter average session duration 
 To reflect the sentiment of the user towards the service, I added features such as number of ‘thumbs up’, adding friends, adding songs to playlist, downgrading etc. 
 Charts below show that churners were less likely to give ‘thumbs up’ or add friends. These features should be predictive for the model.
