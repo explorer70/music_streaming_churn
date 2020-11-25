@@ -26,5 +26,5 @@ Most of the features were numeric that allowed to build a model with minimum pre
 
 Code was created based on the examples fron Udacity Data Scientist nano degree and a course on Spark for the capstone project. 
 Stack overflow site was used to find code snippets for pyspark utilities such as unix timestamp conversion and manipulation (https://stackoverflow.com/questions/45977449/convert-timestamp-to-date-in-spark-dataframe_
-I also followed some suggestions from this article: 
+I also followed some suggestions from the article by Dhiraj Rai on Logistic Regression in Spark ML https://medium.com/@dhiraj.p.rai/logistic-regression-in-spark-ml-8a95b5f5434c
 
