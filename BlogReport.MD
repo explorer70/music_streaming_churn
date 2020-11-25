@@ -1,8 +1,8 @@
 # Streaming Service Analysis and Modeling with Spark
 
- ![P1](/images/rental1.jpg)
+ ![P1](/images/intro.jpg)
 
-Image source: mashvisor.com
+Image source: https://www.businessinsider.com/best-music-streaming-service-subscription
 ## Project Overview
 The objective of the project is to learn and demonstrate how to manipulate, analyze and build a predictive model on a large datasets using Spark libraries. The data represents users information, such as name and gender, page views, and additional usage statistics for online music streaming service. The goal is to predict an event that represents churn, i.e. when a user unsubscribes from the service. To achieve this goal, the data needs to be analyzed,  manipulated, and aggregated in a way suitable for modeling. Since the original data contains only few features, they can be used to derive additional statistics and features that can enrich information fed into the model.
 ## Problem Statement
