@@ -13,7 +13,7 @@ The objective of the project is to learn how to manipulate, analyze and build a 
 
 ### 2. File Descriptions
 
-The blog post file, BlogReportMD, contains the details about the project, approach taken, and summary of all the steps. The notebook contains executable code for data loading, preprocessing, manipulation, analysis, model development, and model evaluation. The original dataset was not apploaded due to its size. It is available through Udacity program.
+The blog post file, BlogReport.MD, contains the details about the project, approach taken, and summary of all the steps. The notebook contains executable code for data loading, preprocessing, manipulation, analysis, model development, and model evaluation. The original dataset was not apploaded due to its size. It is available through Udacity program.
 
 
 ### 3. Conclusions
