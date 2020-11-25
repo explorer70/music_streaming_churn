@@ -22,33 +22,8 @@ As a first step in data preprocessing, I evaluated the dataset for missing value
 ## Analysis
 The initial analysis was performed on the clickstream data to understand feature types and distributions. Most interesting features were page types. We can use them to identify churn and also to understand and measure type of interactions with the service. 
 
-
-               page| count|
-+--------------------+------+
-|            NextSong|228108|
-|                Home| 14457|
-|           Thumbs Up| 12551|
-|     Add to Playlist|  6526|
-|          Add Friend|  4277|
-|         Roll Advert|  3933|
-|               Login|  3241|
-|              Logout|  3226|
-|         Thumbs Down|  2546|
-|           Downgrade|  2055|
-|                Help|  1726|
-|            Settings|  1514|
-|               About|   924|
-|             Upgrade|   499|
-|       Save Settings|   310|
-|               Error|   258|
-|      Submit Upgrade|   159|
-|    Submit Downgrade|    63|
-|              Cancel|    52|
-|Cancellation Conf...|    52|
-|            Register|    18|
-| Submit Registration|     5
-
-
+![P8](/images/eda7.png)
+ 
 I used ‘Cancellation Confirmation’ to encode the churn event. Then I aggregated information on a user level to indicate users who had a churn even as churners. The resulting set contained 99 churners and 349 non-churners. I also added features like tenure by calculating a time interval between first and last interaction, total number of distinct session ids per user as visits, and if a user was paying for the service (at least one paid event exists). I explored the correlation between these features and the churn by using feature distribution and statistics. 
 
 The chart below shows that churners are less likely to pay for the service comparing to non-churners. (69% vs. 75%) 
